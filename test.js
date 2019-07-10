@@ -63,7 +63,7 @@
         verifyname[i]=x.value;
          $(x1).val("");
          $(y1).val("");
-         console.log(y.value(word.length+1).join(“*”));
+       
         
   	}
   }
