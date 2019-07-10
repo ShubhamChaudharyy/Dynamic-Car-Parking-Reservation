@@ -22,8 +22,12 @@
 	<title></title>
 </head>
 <body>
-	 <div class="jumbotron jumbotron-fluid" style="background-color: #9F3B1C;"><div style="font-family: Passion One; font-size: 50px; margin-left:530px;">AVAILABLE PARKING SPOTS:<span id="update" style="font-size: 50px;">30</span></div></div>
+	 <div class="jumbotron jumbotron-fluid" style="background-color: #9F3B1C;"><div style="font-family: Passion One; font-size: 50px; margin-left:530px;">AVAILABLE PARKING SPOTS:<span id="update" style="font-size: 50px;">30</span></div>
+	 <div style="margin-left: 50px;"><p>INSTRUCTIONS: This can be used as many types of reservation system. All you need to do is type your name and a password. <br>Rules for Password:Password must be in numbers and its first digit must be your chose location to reserve. the block in extreme left is 1  and you can count from that block. so password must contain its first digit as the position on which you need to locate your position to reserve and the rest three digits can be any of the digits.<br><b>for example if i want to book 4th location then i wll input my name shubham and location 4567 where 4 is my chose location and 567 is any number that will help to make my slot protected as no one can guess it. <br>for example 2:input name as Akash and password is 23781 where 23 is the position to reserve and 781 is any number to make slot protected</b>.At the time of exit you need to remember your input name and password. type in your both credentials and you can make your reserved slot unreserved.<br>Available spots above is also updated after every entry and exit.</p>
+	<br> <b><i>EXIT Credentials are Case Sensitive so remember your input case letters exactly</i></b></div>
 	
+	</div>
+
 	<div><h1 style="font-family: Passion one;margin-left: 200px; float: left; margin-right: 800px; margin-bottom: 10px;"><b>ENTRY</b></h1></div>
 	<div><h1 style="font-family: Passion one;margin-bottom: 10px;"><b>EXIT</b></h1></div>
 
@@ -35,7 +39,7 @@
       <input type="text" class="form-control" id="userdetail1" placeholder="NAME">
     </div>
     <div class="col" style="max-width: 255px;">
-      <input type="text" class="form-control" id="userdetail2" placeholder="PARKING SPOT">
+      <input type="text" class="form-control" id="userdetail2" placeholder="PASSWORD">
     </div>
     <div><button type="button" class="btn btn-success" id="submitlis">BOOK</button></div>
   </div>
@@ -46,7 +50,7 @@
       <input type="text" class="form-control" id="exitdetail1" placeholder="NAME">
     </div>
     <div class="col" style="max-width: 255px;">
-      <input type="text" class="form-control" id="exitdetail2" placeholder="PARKING SPOT">
+      <input type="text" class="form-control" id="exitdetail2" placeholder="PASSWORD">
     </div>
     <div><button type="button" class="btn btn-danger" id="removelis" onclick >REMOVE</button></div>
   </div>
